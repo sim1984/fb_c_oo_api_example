@@ -1,4 +1,4 @@
-# Пример работы с объкноориентированном API Firebird в C
+# Пример работы с объектно-ориентированном API Firebird в C
 
 Создание интерфейсов для языка C.
 
@@ -9,7 +9,7 @@ cloop FirebirdInterface.idl c-impl fb_api_impl.c fb_api.h fb_
 
 Компиляция в Linux
 
-```
+```bash
 mkdir build
 cmake . -B ./build
 cd build
