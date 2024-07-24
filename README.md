@@ -9,7 +9,7 @@ cloop FirebirdInterface.idl c-impl fb_api_impl.c fb_api.h fb_
 
 В получившихся файлах не хватает функции `fb_get_master_interface()`. Добавим её определение в файл `fb_api.h`.
 
-```c
+```cpp
 CLOOP_EXTERN_C struct fb_Master* ISC_EXPORT fb_get_master_interface();
 ```
 
