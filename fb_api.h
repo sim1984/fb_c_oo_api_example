@@ -3308,6 +3308,6 @@ struct fb_ProfilerStats
 
 CLOOP_EXTERN_C ISC_UINT64 fb_ProfilerStats_getElapsedTicks(struct fb_ProfilerStats* self);
 
-CLOOP_EXTERN_C struct fb_Master* ISC_EXPORT fb_get_master_interface();
+CLOOP_EXTERN_C struct fb_Master* ISC_EXPORT fb_get_master_interface(void);
 
 #endif	// FB_OOAPI_H
