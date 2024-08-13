@@ -22,7 +22,7 @@ set(FIREBIRD_INCLUDE_DIR ${FIREBIRD_DIR}/include)
 
 target_sources(example PRIVATE
     "example.c"
-    "fb_api_impl.c"
+    "fb_c_api.c"
 )
 
 target_compile_definitions(example PRIVATE HAVE_CONFIG_H)

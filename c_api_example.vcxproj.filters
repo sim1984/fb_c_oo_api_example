@@ -18,12 +18,12 @@
     <ClCompile Include="example.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="fb_api_impl.c">
+    <ClCompile Include="fb_c_api.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fb_api.h">
+    <ClInclude Include="fb_c_api.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
