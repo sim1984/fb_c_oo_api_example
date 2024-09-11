@@ -1,10 +1,10 @@
 # Пример работы с OO API Firebird на языке C
 
-Создание интерфейсов для языка C.
+
+Если в папкке `include/firebird` отсутвует файл `fb_c_api.h` вы можете создать его самостоятельно.
 
 ```bash
 cloop FirebirdInterface.idl c-header fb_c_api.h FB_C_API_H I
-cloop FirebirdInterface.idl c-impl fb_c_api.c fb_c_api.h I
 ```
 
 В получившихся файлах не хватает функции `fb_get_master_interface()`. Добавим её определение в файл `fb_c_api.h`.

@@ -147,10 +147,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="example.c" />
-    <ClCompile Include="fb_c_api.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fb_c_api.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

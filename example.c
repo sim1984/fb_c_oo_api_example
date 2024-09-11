@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "fb_c_api.h"
+#include "firebird/fb_c_api.h"
 
 typedef struct fb_field
 {
